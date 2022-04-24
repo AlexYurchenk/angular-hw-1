@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  color: brown;
+  margin-right: 10px;
+}
+.percentage {
+  line-height: 2em;
+  color: red;
+}

@@ -1,0 +1,9 @@
+<li id="{{ friend.id }}" class="item">
+  <span
+    [class.isOnline]="friend.isOnline"
+    [class.isOffline]="!friend.isOnline"
+    class="status"
+  ></span>
+  <img class="avatar" src="{{ friend.avatar }}" alt="User avatar" width="48" />
+  <p class="name">{{ friend.name }}</p>
+</li>
